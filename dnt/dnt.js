@@ -1,3 +1,14 @@
+//    ____    __  __  ______   
+//   /\  _`\ /\ \/\ \/\__  _\  
+//   \ \ \/\ \ \ `\\ \/_/\ \/  
+//    \ \ \ \ \ \ , ` \ \ \ \  
+//     \ \ \_\ \ \ \`\ \ \ \ \ 
+//      \ \____/\ \_\ \_\ \ \_\
+//       \/___/  \/_/\/_/  \/_/
+//
+// DNT :: Do Not Track Extension for Chrome
+// Copyright (c) 2012 Ori Livneh. BSD License.
+
 /*jslint white:true */
 /*global chrome */
 
@@ -10,7 +21,6 @@
         info = [ 'requestHeaders', 'blocking' ];
 
     function doNotTrack( r ) {
-        console.log( r );
         r.requestHeaders.push( dnt_header );
         return { requestHeaders: r.requestHeaders };
     }

@@ -1,0 +1,22 @@
+{
+    "name": "dnt",
+    "description": "Adds the Do Not Track header to outgoing requests",
+    "icons": {
+        "32": "home-32.png",
+        "48": "home-48.png",
+        "64": "home-64.png",
+        "128": "home-128.png"
+    },
+    "homepage_url": "https://github.com/atdt/dnt",
+    "manifest_version": 2,
+    "version": "0.1",
+    "background": {
+        "scripts": ["dnt.js"]
+    },
+    "permissions": [
+        "webRequest", 
+        "webRequestBlocking", 
+        "<all_urls>"
+    ],
+    "minimum_chrome_version": "18"
+}

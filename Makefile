@@ -1,4 +1,4 @@
-EXTNAME := force-media-type
+EXTNAME := dnt
 KEYFILE := $(EXTNAME).pem
 EXTDIR  := $(EXTNAME)
 SHELL   := /usr/bin/env bash

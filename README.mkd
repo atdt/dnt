@@ -1,11 +1,11 @@
-dnt
+DNT
 ===
 This Chrome / Chromium extension appends a [Do Not Track][0] header to all
 outgoing requests indicating that the user wishes to opt out of all tracking.
 
-License
-=======
-Copyright (c) 2012 Ori Livneh
+BSD License
+===========
+Copyright (c) 2012 [Ori Livneh][1]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
@@ -27,8 +27,9 @@ SOFTWARE.
 
 Credits
 =======
-[Smashy The Alien][1] icon by [Maja Benčić][1]. Used with permission.
+[Smashy The Alien][2] icon by [Maja Benčić][3]. Used with permission.
 
   [0]: http://donottrack.us/
-  [1]: http://www.smashingmagazine.com/2008/07/23/smashy-the-alien-icon-set/
-  [2]: http://www.fritula.hr/index.php/home/
+  [1]: mailto:ori.livneh@gmail.com
+  [2]: http://www.smashingmagazine.com/2008/07/23/smashy-the-alien-icon-set/
+  [3]: http://www.fritula.hr/index.php/home/
